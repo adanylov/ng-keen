@@ -19,7 +19,8 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
-        "styles.scss"
+        "./styles/bootstrap.scss",
+        "./styles/styles.scss"
       ],
       "scripts": [],
       "environmentSource": "environments/environment.ts",
@@ -52,6 +53,20 @@
   },
   "defaults": {
     "styleExt": "scss",
-    "component": {}
+    "component": {
+      "flat": true
+    },
+    "serve": {
+      "flat": true
+    },
+    "pipe": {
+      "flat": true
+    },
+    "directive": {
+      "flat": true
+    },
+    "class": {
+      "flat": true
+    }
   }
 }
