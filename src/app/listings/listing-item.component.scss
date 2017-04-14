@@ -1,0 +1,19 @@
+.avatar-block {
+    display: inline-block;
+    margin-right: 20px;
+    vertical-align: top;
+}
+.info-block {
+    display: inline-block;
+    width: calc(100% - 230px);
+    vertical-align: top;
+}
+.buttons-block {
+    display: inline-block;
+    max-width: 100px;
+    text-align: center;
+    vertical-align: top;
+}
+.card {
+    margin-bottom: 20px;
+}

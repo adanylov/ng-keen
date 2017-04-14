@@ -124,6 +124,10 @@ $brand-dark:                $gray;
 $brand-dark-hover:          $gray-dark;
 $brand-dark-active:         $gray-dark;
 
+$brand-default:         $gray-lighter;
+$brand-default-hover:   $gray-lightest;
+$brand-default-active:  $gray-light;
+$brand-default-100:     $gray-lightest;
 
 
 // Options
@@ -737,6 +741,14 @@ $card-deck-margin:          ($grid-gutter-width-base / 2) !default;
 $card-columns-count:        3 !default;
 $card-columns-gap:          1.25rem !default;
 $card-columns-margin:       $card-spacer-y !default;
+
+// card spacer size
+$card-sm-spacer-x: pxToRem(15px);
+$card-sm-spacer-y: $card-spacer-y;
+$card-md-spacer-x: pxToRem(25px);
+$card-md-spacer-y: pxToRem(30px);
+$card-lg-spacer-x: pxToRem(30px);
+$card-lg-spacer-y: pxToRem(30px);
 
 
 // Tooltips
